@@ -12,6 +12,7 @@ downloads: ~/.ansible-downloads/
 #  - .vimrc
 
 homebrew_installed_packages:
+  - awscli
   - ansible
   - autoconf
   - bash-completion
@@ -24,6 +25,9 @@ homebrew_installed_packages:
   - packer
   - python
   - sqlite
+  - terminal-notifier
+  - zsh
+  - zsh-completions
   - npm
   - ssh-copy-id
   - cowsay
@@ -45,6 +49,7 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - alfred
+  - blender
   - cyberduck
   - java
   - qlstephen
@@ -82,3 +87,8 @@ homebrew_cask_apps:
   - sshfs	
   - webpquicklook
   - vagrant-manager
+  - steam
+  - quicklook-csv
+  - quicklook-json
+  - quicklook-pfm
+  - browserstacklocal

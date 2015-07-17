@@ -44,25 +44,41 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - adium
-  - bettertouchtool
-  - google-chrome
-  - firefox
-  - handbrake
-  - imagemin
-  - imageoptim
-  - iterm2
-  - qlmarkdown
+  - alfred
+  - cyberduck
+  - java
   - qlstephen
+  - skype
+  - sshfs
+  - virtualbox
+  - atom
+  - google-chrome
+  - imagealpha
+  - kitematic
+  - qlcolorcode
+  - quicklook-json
+  - slack
+  - sublime-text3
+  - vlc
+  - bettertouchtool
+  - firefox
+  - google-hangouts
+  - imageoptim
+  - monotype-skyfonts
+  - qlmarkdown
+  - reggy
+  - torbrowser
+  - cord
+  - font-inconsolata
+  - handbrake
+  - iterm2
+  - mou
+  - qlprettypatch
   - sequel-pro
+  - spotify
+  - vagrant
+  - adium
   - soundflower
   - sshfs	
-  - spotify
-  - skype
-  - sublime-text # Note - Sublime Text 2 only, at this time...
-  - torbrowser
   - webpquicklook
-  - vagrant
   - vagrant-manager
-  - vlc
-  - virtualbox

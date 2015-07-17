@@ -40,6 +40,8 @@ homebrew_installed_packages:
 
 homebrew_taps:
   - caskroom/cask
+  - caskroom/versions
+  - caskroom/fonts
   - homebrew/binary
   - homebrew/dupes
   - homebrew/php
@@ -47,47 +49,44 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - adium
   - alfred
+  - atom
+  - bettertouchtool
   - blender
+  - browserstacklocal
+  - cord
   - cyberduck
+  - firefox
+  - google-chrome
+  - google-hangouts
+  - handbrake
+  - imagealpha
+  - imageoptim
+  - iterm2
   - java
-  - qlstephen
+  - monotype-skyfonts
+  - mou
+  - reggy
   - skype
   - sshfs
-  - virtualbox
-  - atom
-  - google-chrome
-  - imagealpha
-  - kitematic
   - qlcolorcode
-  - quicklook-json
-  - slack
-  - sublime-text3
-  - vlc
-  - bettertouchtool
-  - firefox
-  - google-hangouts
-  - imageoptim
-  - monotype-skyfonts
   - qlmarkdown
-  - reggy
-  - torbrowser
-  - cord
-  - font-inconsolata
-  - handbrake
-  - iterm2
-  - mou
   - qlprettypatch
-  - sequel-pro
-  - spotify
-  - vagrant
-  - adium
-  - soundflower
-  - sshfs	
-  - webpquicklook
-  - vagrant-manager
-  - steam
+  - qlstephen
   - quicklook-csv
   - quicklook-json
   - quicklook-pfm
-  - browserstacklocal
+  - sequel-pro
+  - slack
+  - steam
+  - soundflower
+  - sublime-text3
+  - spotify
+  - torbrowser
+  - vagrant
+  - vagrant-manager
+  - virtualbox
+  - vlc
+  - webpquicklook
+  - font-inconsolata

@@ -1,15 +1,15 @@
 ---
 downloads: ~/.ansible-downloads/
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
-dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
-dotfiles_files:
-  - .bash_profile
-  - .gitconfig
-  - .gitignore
-  - .inputrc
-  - .osx
-  - .vimrc
+#dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+#dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
+#dotfiles_files:
+#  - .bash_profile
+#  - .gitconfig
+#  - .gitignore
+#  - .inputrc
+#  - .osx
+#  - .vimrc
 
 homebrew_installed_packages:
   - ansible
@@ -19,28 +19,20 @@ homebrew_installed_packages:
   - docker
   - gettext
   - git
-  - go
+  - git-flow
   - gpg
-  - iperf
-  - libevent
   - packer
   - python
   - sqlite
-  - mysql
   - npm
-  - php56
-  - php56-xdebug
   - ssh-copy-id
   - cowsay
   - ios-sim
   - readline
-  - subversion
-  - kdiff3
   - openssl
   - pv
   - drush
   - wget
-  - wrk
   - brew-cask
 
 homebrew_taps:
@@ -55,25 +47,21 @@ homebrew_cask_apps:
   - adium
   - bettertouchtool
   - google-chrome
-  - dropbox
-  - fing
   - firefox
   - handbrake
-  - karabiner
-  - limechat
-  - licecap
-  - macvim
-  - menumeters
-  - nvalt
+  - imagemin
+  - imageoptim
+  - iterm2
+  - qlmarkdown
+  - qlstephen
   - sequel-pro
+  - soundflower
+  - sshfs	
+  - spotify
   - skype
-  - skitch
-  - seil
   - sublime-text # Note - Sublime Text 2 only, at this time...
-  - textmate
-  - timemachineeditor
-  - tower
-  - transmit
+  - torbrowser
+  - webpquicklook
   - vagrant
   - vagrant-manager
   - vlc
